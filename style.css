@@ -1,0 +1,70 @@
+* {
+    font-family: "Krona One", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #BF2525;
+    --acesso: #D9D9D9;
+    --green: #008400;
+}
+
+header {
+    background-color: var(--red);
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 59px;
+    height: 54px;
+}
+
+header p {
+    color: #fff;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p {
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 282px;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 11px;
+    padding: 7px;
+    background: var(--acesso);
+}
+
+button {
+    width: 111px;
+    height: 35px;
+    margin-top: 220px;
+    padding: 5px;
+    border-radius: 4px;
+    background: var(--acesso);
+    border: none;
+
+    margin-left: 240px;
+}
+
+button:hover {
+    background: var(--green);
+    color: #fff;
+    cursor: pointer;
+}
